@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px){
+  #grid[data-columns]::before {
+    content: '1 .column.size-1of1';
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #grid[data-columns]::before {
+    content: '2 .column.size-1of2';
+  }
+}
+@media screen and (min-width: 769px) {
+  #grid[data-columns]::before {
+    content: '3 .column.size-1of3';
+  }
+}
+
+.column { float: left; margin: 0px 1%; }
+.size-1of1 { width: 98%; }
+.size-1of2 { width: 46%; }
+.size-1of3 { width: 31.333%; }
