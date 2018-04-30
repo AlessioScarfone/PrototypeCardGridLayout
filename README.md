@@ -1,2 +1,2 @@
 # Prototype Card Grid Layout
-A simple prototype for a Pinterest-like homepage with card
+A simple prototype for a mosaic layout with card
